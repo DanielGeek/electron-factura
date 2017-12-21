@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.4/css/uikit.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://getuikit.com/assets/uikit/dist/js/uikit.min.js?168" defer></script>
+</head>
+<body>
+<div class="uk-card uk-card-default uk-width-1-2@m">
+    <div class="uk-card-body">
+        <h3 class="uk-card-title">Factura electronica Myabakus</h3>
+        <p>Usuario</p>
+        <div class="uk-margin">
+            <input class="uk-input" type="text" placeholder="Ingrese su Usuario" id="user" name="password">
+        </div>
+        <p>Password</p>
+        <div class="uk-margin">
+            <input class="uk-input" type="password" placeholder="Ingrese su Password" id="password" name="password">
+        </div>
+        <p>Certificado para la factura electronica</p>
+        <div class="uk-margin">
+            <input class="uk-input" type="file"  placeholder="Agregue el archivo de certificado" id="certificado" name="certificado">
+        </div>
+    </div>
+    <div class="uk-card-footer">
+        <button onclick="triggerPrint()" class="uk-button uk-button-text">Ingresar</button>
+    </div>
+</div>
+<script>
+    // You can also require other files to run in this process
+    //require('./renderer.js')
+</script>
+<script src="renderer.js"></script>
+<!--<script src="assets/jQuery.js"></script>
+<script src="assets/uiKit.js"></script>-->
+<!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.4/js/uikit.js"></script>-->
+</body>
+</html>

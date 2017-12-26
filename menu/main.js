@@ -15,27 +15,13 @@ const template = [
     {
     label: '1. Factura',
     submenu: [  
-      {type: 'separator'},
-      {role: 'cut'},
-      {role: 'copy'},
-      {role: 'paste'},
-      {role: 'pasteandmatchstyle'},
-      {role: 'delete'},
-      {role: 'selectall'}
+      
     ]
   },
   {
     label: '2. Notas creditos',
     submenu: [
-      {role: 'reload'},
-      {role: 'forcereload'},
-      {role: 'toggledevtools'},
-      {type: 'separator'},
-      {role: 'resetzoom'},
-      {role: 'zoomin'},
-      {role: 'zoomout'},
-      {type: 'separator'},
-      {role: 'togglefullscreen'}
+     
     ]
   },
   {
@@ -87,25 +73,25 @@ if (process.platform === 'darwin') {
   })
 
   // Edit menu
-  template[1].submenu.push(
-    {type: 'separator'},
-    {
-      label: 'Speech',
-      submenu: [
-        {role: 'startspeaking'},
-        {role: 'stopspeaking'}
-      ]
-    }
-  )
+  // template[1].submenu.push(
+  //   {type: 'separator'},
+  //   {
+  //     label: 'Speech',
+  //     submenu: [
+  //       {role: 'startspeaking'},
+  //       {role: 'stopspeaking'}
+  //     ]
+  //   }
+  // )
 
   // Window menu
-  template[3].submenu = [
-    {role: 'close'},
-    {role: 'minimize'},
-    {role: 'zoom'},
-    {type: 'separator'},
-    {role: 'front'}
-  ]
+  // template[3].submenu = [
+  //   {role: 'close'},
+  //   {role: 'minimize'},
+  //   {role: 'zoom'},
+  //   {type: 'separator'},
+  //   {role: 'front'}
+  // ]
 }
 
 

@@ -13,10 +13,12 @@ let win;
 
 const template = [
     {
-    label: 'Edit',
+    label: 'Ver',
     submenu: [
-      {role: 'undo'},
-      {role: 'redo'},
+      {label: '1. Factura'},
+      {label: '2. Notas creditos'},
+      {label: '3. Notas debitos'},
+      {label: '4. Configurar'},
       {type: 'separator'},
       {role: 'cut'},
       {role: 'copy'},

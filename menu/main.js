@@ -13,12 +13,8 @@ let win;
 
 const template = [
     {
-    label: 'Ver',
-    submenu: [
-      {label: '1. Factura'},
-      {label: '2. Notas creditos'},
-      {label: '3. Notas debitos'},
-      {label: '4. Configurar'},
+    label: '1. Factura',
+    submenu: [  
       {type: 'separator'},
       {role: 'cut'},
       {role: 'copy'},
@@ -29,7 +25,7 @@ const template = [
     ]
   },
   {
-    label: 'View',
+    label: '2. Notas creditos',
     submenu: [
       {role: 'reload'},
       {role: 'forcereload'},
@@ -43,6 +39,19 @@ const template = [
     ]
   },
   {
+    label: '3. Notas debitos',
+    submenu: [
+
+    ]
+  },
+  {
+    label: '4. Configurar',
+    submenu: [
+
+    ]
+  },
+  {
+    label: 'Ventana',
     role: 'window',
     submenu: [
       {role: 'minimize'},
@@ -50,6 +59,7 @@ const template = [
     ]
   },
   {
+    label: 'Ayuda',
     role: 'help',
     submenu: [
       {

@@ -13,25 +13,25 @@ let win;
 
 const template = [
     {
-    label: '1. Factura',
+    label: 'Factura',
     submenu: [  
       
     ]
   },
   {
-    label: '2. Notas creditos',
+    label: 'Notas creditos',
     submenu: [
      
     ]
   },
   {
-    label: '3. Notas debitos',
+    label: 'Notas debitos',
     submenu: [
 
     ]
   },
   {
-    label: '4. Configurar',
+    label: 'Configurar',
     submenu: [
 
     ]
